@@ -1,15 +1,15 @@
 
 function laya_init(){
-Laya.init(400, 400); 
+Laya.init(600, 400); 
 Laya.stage.bgColor = "#232628"
-
+Laya.stage.scaleMode = "fixedauto";
 
 var canvas = document.getElementById("layaCanvas");
 canvas.style.left = '60px';
 canvas.style.top = '90px';
-canvas.style.width = '300px';
-canvas.style.height = '200px';
-Laya.stage.scaleMode = "fixedauto";
+canvas.style.width = '600px';
+canvas.style.height = '400px';
+
 }
 
 
