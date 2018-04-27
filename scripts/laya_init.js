@@ -2,7 +2,7 @@
 function laya_init(){
 Laya.init(800, 600); 
 Laya.stage.bgColor = "#232628"
-
+Laya.stage.scaleMode = "noscale";
 
 var canvas = document.getElementById("layaCanvas");
 canvas.style.left = '60px';
