@@ -7,6 +7,8 @@ Laya.stage.bgColor = "#232628"
 var canvas = document.getElementById("layaCanvas");
 canvas.style.left = '60px';
 canvas.style.top = '90px';
+canvas.style.width = '800px';
+canvas.style.height = '600px';
 }
 
 
